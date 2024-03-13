@@ -1,0 +1,198 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(252, 253, 253);
+    .roboto-thin {
+        font-family: "Roboto", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+      }
+      
+      .roboto-light {
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+      }
+      
+      .roboto-regular {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+      .roboto-medium {
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+      }
+      
+      .roboto-bold {
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+      
+      .roboto-black {
+        font-family: "Roboto", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+      }
+      
+      .roboto-thin-italic {
+        font-family: "Roboto", sans-serif;
+        font-weight: 100;
+        font-style: italic;
+      }
+      
+      .roboto-light-italic {
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        font-style: italic;
+      }
+      
+      .roboto-regular-italic {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: italic;
+      }
+      
+      .roboto-medium-italic {
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: italic;
+      }
+      
+      .roboto-bold-italic {
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: italic;
+      }
+      
+      .roboto-black-italic {
+        font-family: "Roboto", sans-serif;
+        font-weight: 900;
+        font-style: italic;
+      }
+      
+}
+.container{
+    max-width: 1000px;
+    background-color: rgb(186, 215, 224);
+    margin: 0 auto;
+    padding: 20px;
+}
+.profile-image{
+    width: 100px;
+    height: 120px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+}
+.header-bio{
+    float: left;
+    padding: 35px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: rgb(7, 80, 80);
+}
+.header-contact{
+    float: right;
+    padding: 30px;
+}
+.header-contact a{
+    text-decoration: none;
+    color: teal;
+    font-weight:bold ;
+}
+.header-contact a:hover{
+    text-decoration: underline;
+    color: brown;
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    border: solid black 3px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+
+#personal-content{
+
+}
+.content{
+
+}
+.content-left{
+  width: 30%;
+  float: left;
+
+}
+.content-right{
+  width: 70%;
+  float: left;
+
+}
+.content-right h3{
+  color: rgb(7, 80, 80);
+}
+.common-hr{
+  border: 1px solid black;
+  width: 100%;
+  margin: 20px auto;
+  border-bottom: none;
+}
+#tech-skill{
+
+}
+.skill-left{
+  width: 30%;
+  float: left;
+
+}
+.skill-right{
+  width: 70%;
+  float: left;
+
+}
+.edu-left{
+  width: 30%;
+  float: left;
+}
+.edu-right{
+  width: 70%;
+  float: left;
+}
+.pro-left{
+  width: 30%;
+  float:left
+}
+.pro-right{
+  width: 70%;
+  float: left;
+}
+.hob-left{
+  width: 30%;
+  float: left;
+}
+.hob-right{
+  width: 70%;
+  float: right;
+}
+
+.bottom-container{
+  background-color: black;
+  text-align: center;
+  padding: 10px;
+  color: crimson;
+}
+.bottom-container a{
+  color: aliceblue;
+  margin: 30px;
+  text-decoration: none;
+  
+}
